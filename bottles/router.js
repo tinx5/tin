@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const tools = require("./pages/connect.js");
+const tools = require("./connect.js");
 
 
 router.post("/getOne", (req,res)=>{
